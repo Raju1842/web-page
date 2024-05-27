@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(yellow,orange,red,purple); 
+    background: linear-gradient( to right, yellow, orange , red , purple);
+}
+div{
+    /* position: relative;
+    left: 700px;  */
+    /* height: 100px;
+    width: 100px; */
+}
+#insta{
+    /* height: 100px; */
+    /* width: 100px;  */
+    position: relative;
+    left: 700px;
+    top: 40px;
+ }
+img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+   left: 630px;
+}
+article{
+    height: 370px;
+    width: 400px;
+    border: 0.2px solid white;
+     background-color: lightcyan; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    left: 550px;
+    bottom: 110px;
+    filter: opacity(0.2);
+    border-radius: 10%;
+}
+aside{
+    position: relative;
+    top: 200px;
+   
+}
+button{
+    
+    background-color: blue;
+    /* color: white; */
+    width: 100px;
+    height: 30px;
+    
+    /* filter: opacity(0.6); */
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+label{
+    color: white;
+    height: 40px;
+}
